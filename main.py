@@ -6,3 +6,6 @@ def twoSum(nums: List[int], target: int) -> List[int]:
             if nums[i] + nums[j] == target:
                 return [i, j]
 
+nums = list(map(int, input("nums = ").split()))
+target = int(input("target = "))
+print(twoSum(nums, target))
